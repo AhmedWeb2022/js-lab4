@@ -154,6 +154,7 @@
 // function Person(fullName) {
 //   return {
 //     fullName,
+//     money: 30,
 //     sleep(hours) {
 //       if (hours === 7) {
 //         this.sleepMood = "Happy";
