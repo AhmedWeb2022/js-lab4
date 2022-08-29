@@ -2,7 +2,7 @@
 //   this.fullName = fullName;
 //   this.sleepMood = "happy";
 //   this.healthRate = "";
-//   this.money = 0;
+//   this.money = 20;
 // }
 // Object.assign(Person.prototype, {
 //   sleep(hours) {
@@ -37,7 +37,7 @@
 //   },
 //   buy(items) {
 //     if ((items = 1)) {
-//       this.money = Number(items) + 10;
+//       this.money -= 10;
 //       console.log(this.money);
 //     }
 //   },
@@ -89,7 +89,7 @@
 //   }
 //   buy(items) {
 //     if ((items = 1)) {
-//       this.money = Number(items) + 10;
+//       this.money -= 10;
 //       console.log(this.money);
 //     }
 //   }
@@ -139,7 +139,7 @@
 //   },
 //   buy(items) {
 //     if ((items = 1)) {
-//       this.money = Number(items) + 10;
+//       this.money -= 10;
 //       console.log(this.money);
 //     }
 //   },
@@ -186,7 +186,7 @@
 //     },
 //     buy(items) {
 //       if ((items = 1)) {
-//         this.money = Number(items) + 10;
+//         this.money -= 10;
 //         console.log(this.money);
 //       }
 //     },
